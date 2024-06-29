@@ -4,7 +4,11 @@ This repository contains the scripts and workflows used in our study on bulk RNA
 ## Data Availability
 Raw and processed RNA-seq data used in this study can be accessed through the NCBI GEO data base under the accession number <to be provided>. The full manuscript detailing our findings is available on Cell Reports <insert website>.
 ## Repository Contents
-- 'workflow/': Contains bash scripts for data processing.
+- **'workflow/'**: Contains bash scripts for data processing.
+- **'Rscripts/'**: Contains R scripts for data analysis and visualization.
+- **'renv.lock/'**: Snapshop of the R environment to ensure reproducibility of the analysis.
+- **'lyticEBV_project.Rproj/'**: RStudio project file for the analysis.
+- **'initiate/'**: Script to set up the R environment.
 
 ## Prerequisites
 ### Ubuntu Linux
