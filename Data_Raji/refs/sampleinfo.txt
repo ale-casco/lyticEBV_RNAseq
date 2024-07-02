@@ -1,0 +1,7 @@
+UNIQUE_ID	Condition	Replicate
+ERR3252895	Early	c1
+ERR3252901	Early	c2
+ERR3252907	Early	c3
+ERR3252896	Latent	c1
+ERR3252902	Latent	c2
+ERR3252908	Latent	c3
