@@ -23,13 +23,7 @@ Ensure you have Ubuntu Linnux installed on your system. Processing of the raw da
 
 This analysis relies on R for data processing and visualization. The R scripts manage dependencies using the **'renv'** package. Please note that the **'renv'** environment was created on a Windows system and may not be fully compatible with Ubuntu or MacOS.
 
-## Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/ale-casco/lyticEBV_RNAseq.git
-   cd repository-name
+## Initiate R environment
 
 1. **Set up R environment**
 
