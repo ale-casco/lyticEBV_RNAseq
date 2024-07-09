@@ -1,11 +1,11 @@
 # lyticEBV_RNAseq
 
 ## Overview
-This repository contains the scripts and workflows used in our study on bulk RNA-seq data from FAC-sorted latent, early lytic, and late lytic fractions of lymphoblastoid cell lines (LCLs) transformed by a dual-fluorescent lytic reporter Epstein-Barr virus (EBV). Our analysis was performed using an Ubuntu Linux environment, utilizing bash for data processing and R for data visualization. 
+This repository contains the scripts and workflows used in our study on bulk RNA-seq data from FAC-sorted latent, early lytic, and late lytic fractions of lymphoblastoid cell lines (LCLs) transformed by a dual-fluorescent lytic reporter Epstein-Barr virus (EBV). Data processing was conducted using bash scripts within an Ubuntu Linux environment, with additional processing and visualization performed in R on a Windows platform.
 
 ## Data Availability
 
-Raw and processed RNA-seq data used in this study can be accessed through the NCBI GEO data base under the accession number <to be provided>. The full manuscript detailing our findings is available on Cell Reports <insert website>.
+Raw (genome-aligned BAM files) and processed (RSEM output) RNA-seq data used in this study can be accessed through the NCBI GEO database under the accession number GSE271717. The full manuscript detailing our findings is available on Cell Reports <under revisions>.
 
 ## Repository Contents
 
