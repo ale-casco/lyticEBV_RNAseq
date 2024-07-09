@@ -9,11 +9,9 @@ Raw (genome-aligned BAM files) and processed (RSEM output) RNA-seq data used in 
 
 ## Repository Contents
 
-- **'workflow/'**: Contains bash scripts for data processing.
-- **'Rscripts/'**: Contains R scripts for data analysis and visualization.
-- **'renv.lock/'**: Snapshop of the R environment to ensure reproducibility of the analysis.
-- **'lyticEBV_project.Rproj/'**: RStudio project file for the analysis.
-- **'initiate/'**: Script to set up the R environment.
+- **Linux_workflow**: Contains the detailed Linux workflow and associated bash scripts employed for data processing.
+- **Rscripts**: Contains the R scripts utilized for data analysis and generation of figures.
+- **initiate.R**: This script facilitates the setup of the R environment. Executing it will launch the RStudio project **'lyticEBV_project.Rproj'**, which leverages the **'renv'** environment. This environment ensures reproducibility by encapsulating the specific R package versions used throughout the study. See **'renv.lock'** for a snapshot of the R environment.
 
 ## Prerequisites
 
