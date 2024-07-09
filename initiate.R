@@ -31,3 +31,6 @@ if (!require("renv", quietly = TRUE)) {
 renv::load() # activate renv environment
 renv::restore() # restore library from renv.lock
 renv::status() # check if the project is in sync with lock file and report any inconsistencies
+
+# Open data analysis and figure generation scripts
+rstudioapi::navigateToFile(file.path(project_dir,"Rscripts/open_scripts.R"))
