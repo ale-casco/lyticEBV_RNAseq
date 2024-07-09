@@ -1,0 +1,10 @@
+## GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa excluded due to large size.
+
+# Download GRCh38.p14.genome.fa
+wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/GRCh38.p14.genome.fa.gz
+
+# Decompress
+gzip -d GRCh38.p14.genome.fa.gz
+
+# Concatenate human, EBV, and ERCC references
+cat GRCh38.p14.genome.fa ERCC92.fa M81_DFLR.chrEBV.inverted.fa > GRCh38.p14.ERCC.M81_DFLR.chrEBV.inverted.fa

@@ -1,0 +1,67 @@
+# output files excluded due to large size.
+# Rerun SpliceWiz.R script to generate.
+# Below is a tree visualization of the file structure and disk usage of the output directory.
+
+output/
+├── [2.0G]  WT
+│   ├── [117M]  WT_02.cov
+│   ├── [ 23M]  WT_02.txt.gz
+│   ├── [ 88M]  WT_03.cov
+│   ├── [ 22M]  WT_03.txt.gz
+│   ├── [ 96M]  WT_04.cov
+│   ├── [ 23M]  WT_04.txt.gz
+│   ├── [ 59M]  WT_05.cov
+│   ├── [ 21M]  WT_05.txt.gz
+│   ├── [ 90M]  WT_07.cov
+│   ├── [ 23M]  WT_07.txt.gz
+│   ├── [ 95M]  WT_08.cov
+│   ├── [ 23M]  WT_08.txt.gz
+│   ├── [ 88M]  WT_09.cov
+│   ├── [ 23M]  WT_09.txt.gz
+│   ├── [ 52M]  WT_10.cov
+│   ├── [ 20M]  WT_10.txt.gz
+│   ├── [ 87M]  WT_12.cov
+│   ├── [ 22M]  WT_12.txt.gz
+│   ├── [ 88M]  WT_13.cov
+│   ├── [ 23M]  WT_13.txt.gz
+│   ├── [ 90M]  WT_14.cov
+│   ├── [ 23M]  WT_14.txt.gz
+│   ├── [ 55M]  WT_15.cov
+│   ├── [ 21M]  WT_15.txt.gz
+│   ├── [106M]  WT_17.cov
+│   ├── [ 23M]  WT_17.txt.gz
+│   ├── [103M]  WT_18.cov
+│   ├── [ 23M]  WT_18.txt.gz
+│   ├── [ 81M]  WT_19.cov
+│   ├── [ 23M]  WT_19.txt.gz
+│   ├── [ 42M]  WT_20.cov
+│   ├── [ 20M]  WT_20.txt.gz
+│   ├── [ 94M]  WT_22.cov
+│   ├── [ 23M]  WT_22.txt.gz
+│   ├── [ 94M]  WT_23.cov
+│   ├── [ 23M]  WT_23.txt.gz
+│   ├── [ 88M]  WT_24.cov
+│   ├── [ 23M]  WT_24.txt.gz
+│   ├── [ 35M]  WT_25.cov
+│   └── [ 19M]  WT_25.txt.gz
+└── [1.0G]  dBGLF5
+    ├── [ 87M]  dBGLF5_02.cov
+    ├── [ 23M]  dBGLF5_02.txt.gz
+    ├── [102M]  dBGLF5_03.cov
+    ├── [ 23M]  dBGLF5_03.txt.gz
+    ├── [ 95M]  dBGLF5_04.cov
+    ├── [ 21M]  dBGLF5_04.txt.gz
+    ├── [ 75M]  dBGLF5_06.cov
+    ├── [ 22M]  dBGLF5_06.txt.gz
+    ├── [ 86M]  dBGLF5_07.cov
+    ├── [ 23M]  dBGLF5_07.txt.gz
+    ├── [ 94M]  dBGLF5_08.cov
+    ├── [ 22M]  dBGLF5_08.txt.gz
+    ├── [ 84M]  dBGLF5_10.cov
+    ├── [ 23M]  dBGLF5_10.txt.gz
+    ├── [113M]  dBGLF5_11.cov
+    ├── [ 24M]  dBGLF5_11.txt.gz
+    ├── [125M]  dBGLF5_12.cov
+    └── [ 23M]  dBGLF5_12.txt.gz
+
+ 3.1G used in 2 directories, 58 files

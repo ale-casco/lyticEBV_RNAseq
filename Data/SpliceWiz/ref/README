@@ -1,0 +1,34 @@
+# ref excluded due to large size.
+# Please see lyticEBV_RNAseq/Data/refs for the inverted M81 and ERCC genomes and annotations.
+# Below is a tree visualization of the file structure and disk usage of the ref directory.
+
+ref
+├── [7.4M]  Mappability
+│   └── [7.4M]  hg38.MappabilityExclusion.bed.gz
+├── [ 18M]  SpliceWiz.ref.gz
+├── [  43]  chromosomes.Rds
+├── [ 58M]  cov_data.Rds
+├── [1.0G]  fst
+│   ├── [6.8M]  Exons.Group.fst
+│   ├── [105M]  Exons.fst
+│   ├── [2.9M]  Genes.fst
+│   ├── [ 38M]  IR.NMD.fst
+│   ├── [ 39M]  Introns.Dir.fst
+│   ├── [ 39M]  Introns.ND.fst
+│   ├── [ 45M]  Misc.fst
+│   ├── [ 13M]  Ontology.fst
+│   ├── [ 57M]  Proteins.fst
+│   ├── [115M]  Splice.Extended.fst
+│   ├── [ 41M]  Splice.fst
+│   ├── [ 81M]  Splice.options.fst
+│   ├── [ 17M]  Transcripts.fst
+│   ├── [301M]  gtf_fixed.fst
+│   └── [132M]  junctions.fst
+├── [843M]  resource
+│   ├── [7.4M]  MappabilityFile.resource
+│   ├── [785M]  genome.2bit
+│   ├── [2.4K]  nonPolyAFile.resource
+│   └── [ 51M]  transcripts.gtf.gz
+└── [ 428]  settings.Rds
+
+ 1.9G used in 3 directories, 24 files

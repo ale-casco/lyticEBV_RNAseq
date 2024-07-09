@@ -1,0 +1,33 @@
+# bams excluded due to large size.
+# bams can get be downloaded from the NCBI GEO database under accession number GSE271717.
+# Below is a tree visualization of the file structure and disk usage of the bams directory.
+
+bams
+├── [ 44G]  dBGLF5
+│   ├── [5.9G]  dBGLF5_02.Aligned.sortedByCoord.out.bam
+│   ├── [5.6G]  dBGLF5_12.Aligned.sortedByCoord.out.bam
+│   ├── [5.4G]  dBGLF5_03.Aligned.sortedByCoord.out.bam
+│   ├── [5.3G]  dBGLF5_11.Aligned.sortedByCoord.out.bam
+│   ├── [4.6G]  dBGLF5_08.Aligned.sortedByCoord.out.bam
+│   ├── [4.6G]  dBGLF5_07.Aligned.sortedByCoord.out.bam
+│   ├── [4.6G]  dBGLF5_04.Aligned.sortedByCoord.out.bam
+│   ├── [4.6G]  dBGLF5_06.Aligned.sortedByCoord.out.bam
+│   └── [3.9G]  dBGLF5_10.Aligned.sortedByCoord.out.bam
+└── [ 78G]  WT
+    ├── [6.8G]  WT_18.Aligned.sortedByCoord.out.bam
+    ├── [6.3G]  WT_10.Aligned.sortedByCoord.out.bam
+    ├── [6.1G]  WT_13.Aligned.sortedByCoord.out.bam
+    ├── [6.1G]  WT_15.Aligned.sortedByCoord.out.bam
+    ├── [5.5G]  WT_14.Aligned.sortedByCoord.out.bam
+    ├── [5.4G]  WT_08.Aligned.sortedByCoord.out.bam
+    ├── [5.3G]  WT_09.Aligned.sortedByCoord.out.bam
+    ├── [5.0G]  WT_19.Aligned.sortedByCoord.out.bam
+    ├── [5.0G]  WT_24.Aligned.sortedByCoord.out.bam
+    ├── [4.9G]  WT_23.Aligned.sortedByCoord.out.bam
+    ├── [4.7G]  WT_20.Aligned.sortedByCoord.out.bam
+    ├── [4.4G]  WT_05.Aligned.sortedByCoord.out.bam
+    ├── [4.1G]  WT_04.Aligned.sortedByCoord.out.bam
+    ├── [4.0G]  WT_25.Aligned.sortedByCoord.out.bam
+    └── [3.8G]  WT_03.Aligned.sortedByCoord.out.bam
+
+ 122G used in 2 directories, 24 files

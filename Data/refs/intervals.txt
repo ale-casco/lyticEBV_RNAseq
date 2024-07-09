@@ -1,0 +1,4 @@
+chromosome	gene	start	end	group_scale
+chr22	TBC1D10A	30262500	30304967	no
+chr19	ILF3	10677100	10681180	no
+chrEBV	BGLF5	1	4460	no
