@@ -13,13 +13,13 @@ if (!is.null(rstudioapi::getActiveProject())) {
   if(length(project_files)==1){
     project_file_name <- project_files[1]
     if (project_file_name != "lyticEBV_RNAseq.Rproj") {
-      openProject(file.path(project_dir,"lyticEBV_RNAseq.Rproj"))
+      rstudioapi::openProject(file.path(project_dir,"lyticEBV_RNAseq.Rproj"))
     }
   } else {
     stop("Multiple or no .Rproj files found in the project directory.")
   }
 } else {
-  openProject(file.path(project_dir,"lyticEBV_RNAseq.Rproj"))
+  rstudioapi::openProject(file.path(project_dir,"lyticEBV_RNAseq.Rproj"))
 }
 
 ## Install project manager package renv
