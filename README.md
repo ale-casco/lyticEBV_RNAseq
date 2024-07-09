@@ -5,7 +5,7 @@ This repository contains the scripts and workflows used in our study on bulk RNA
 
 ## Data Availability
 
-Raw and processed RNA-seq data used in this study can be accessed through the NCBI GEO data base under the accession number <to be provided>. The full manuscript detailing our findings is available on Cell Reports <insert website>.
+Raw (genome-aligned BAM files) and processed (RSEM output) RNA-seq data used in this study can be accessed through the NCBI GEO database under the accession number GSE271717. The full manuscript detailing our findings is available on Cell Reports <under revisions>.
 
 ## Repository Contents
 
