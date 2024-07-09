@@ -21,19 +21,15 @@ Ensure you have Ubuntu Linnux installed on your system. Processing of the raw da
 
 ### R and R Packages
 
-This analysis relies on R for data processing and visualization. The R scripts manage dependencies using the **'renv'** package. Please note that the **'renv'** environment was created on a Windows system and may not be fully compatible with Ubuntu or MacOS.
+This analysis relies on R for data processing and visualization. The R scripts manage dependencies using the **'renv'** package.
 
 ## Initiate R environment
 
-1. **Set up R environment**
-
+Run the **'initiate.R'** script.
    This script will:
-   - Check if **'rstudioapi'** is installed.
-   - Use **'rstudioapi'** to define the project directory.
-   - Check if the project is open.
-   - If the project is not open, it will open the project using **'openProject(file.path(project_dir, "lytic_EBV_project.Rproj"))'**.
-   
-By opening the project, the necessary **'renv'** project libraries will be loaded automatically, so there is no need to install or run **'renv::restore()'** manually.
+   - Use **'rstudioapi'** to define the project directory and open the R project **'lytic_EBV_project.Rproj'**.
+   - Use **'renv'** to activate and restore the renv library from the lock file.
+
 
 ## Contributing
 
