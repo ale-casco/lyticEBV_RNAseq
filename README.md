@@ -38,10 +38,10 @@ This analysis relies on R for data processing and visualization. The R scripts m
 The following files and directories are not included in this repository, but are referenced in the workflow:
 | Path                                                                          | Notes                                                  |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
-| ~/Data/ARTDeco/preprocess_files                                               | Run ARTDeco separately to generate<br> these files.     |
-| ~/Data/SpliceWiz/NxtSE,<br> ~/Data/SpliceWiz/output<br>, ~/Data/SpliceWiz/ref | <be>Run SpliceWiz.R to generate<br> these files.        |
+| ~/Data/ARTDeco/preprocess_files                                               | Run ARTDeco separately to generate these files.     |
+| ~/Data/SpliceWiz/NxtSE,<br> ~/Data/SpliceWiz/output<br>, ~/Data/SpliceWiz/ref | <be>Run SpliceWiz.R to generate these files.        |
 | ~/Data/bams                                                                   | Download these files from the NCBI GEO database under accession<br> number GSE271717. |
-| ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa                   | See README file in the<br> ~/Data/refs directory for<br> instructions on generating this file. |
+| ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa                   | See README file in the ~/Data/refs directory for instructions on<br> generating this file. |
 
 For your convenience, a README file with a tree visualization of the file structure and disk usage for each excluded directory is included in its place.
 
