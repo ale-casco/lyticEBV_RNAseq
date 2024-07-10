@@ -27,12 +27,12 @@ Ensure you have Ubuntu Linnux installed on your system. Processing of the raw da
 ## Instructions
 
 1. Run **`initiate.R`:**
-   - - This script will open the RStudio project **`lyticEBV_project.Rproj`**.
-   - - It will also activate the **`renv`** environment, restoring the necessary R packages.
+   - This script will open the RStudio project **`lyticEBV_project.Rproj`**.
+   - It will also activate the **`renv`** environment, restoring the necessary R packages.
 
 2. **Run Analysis Scripts:**
-   - - Execute the data analysis or figure generation scripts as needed from the **`Rscripts`** directory.
-     - **Note:** Some large files are not included due to size limitations. Refer to the "Data Exclusions" section below.
+   - Execute the data analysis or figure generation scripts as needed from the **`Rscripts`** directory.
+   -  **Note:** Some large files are not included due to size limitations. Refer to the "Data Exclusions" section below.
 
 ## Data Exclusions
 
