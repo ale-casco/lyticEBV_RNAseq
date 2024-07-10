@@ -43,7 +43,7 @@ The following files and directories are not included in this repository, but are
 | ~/Data/bams                                                                   | Download these files from the NCBI GEO database under accession<br> number GSE271717. |
 | ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa                   | See README file in the ~/Data/refs directory for instructions on<br> generating this file. |
 
-For your convenience, a README file with a tree visualization of the file structure and disk usage for each excluded directory is included in its place.
+For convenience, a README file with a tree visualization of the file structure and disk usage for each excluded directory is included in its place.
 
 ## License
 
