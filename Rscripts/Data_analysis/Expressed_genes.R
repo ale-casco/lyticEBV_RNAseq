@@ -27,7 +27,7 @@ if (!file.exists(geneinfo_dir)) {stop(" gene_info.csv file does not exist.\n\tRu
 ## Differential Gene Expression Analysis
 
 # Create working directory
-out_dir=file.path(work_dir, "Expressed_Genes")
+out_dir=file.path(work_dir, "Data/Expressed_Genes")
 dir.create(out_dir, showWarnings=FALSE)
 
 # Import sampleInfo.txt file

@@ -57,7 +57,7 @@ contrasts
 ## Differential Gene Expression Analysis
 
 # Create working directory
-out_dir=file.path(work_dir, "ARTDeco_DESeq2/readthrough")
+out_dir=file.path(work_dir, "Data/ARTDeco_DESeq2/readthrough")
 dir.create(out_dir, showWarnings=FALSE, recursive = TRUE)
 for (i in 1:length(contrasts)) {
   contrast = contrasts[i]
