@@ -9,11 +9,13 @@ Data processing was primarily conducted in an Ubuntu Linux environment. Addition
 
 The raw (genome-aligned BAM files) and processed (RSEM output) RNA-seq data used in this study are available through the NCBI GEO database under the accession number GSE271717. The full manuscript detailing our findings is available on Cell Reports (currently under revision).
 
-## Key Repository Contents
+## Repository Contents
 
 - **`Linux_workflow`:** Contains the detailed Linux workflow and associated bash scripts employed for data processing within the Ubuntu Linux environment.
 - **`initiate.R`:** This script sets up the R environment, launching the RStudio project `lyticEBV_project.Rproj` and activating the `renv` environment to ensure reproducibility of the R package versions used in the study. See `renv.lock` for a snapshot of the R environment.
 - **`Rscripts`:** Contains the R scripts used for data analysis and figure generation.
+- **`Data`:** Contains the data used for R analysis and figure generation in this study.
+- **`Data_Raji`:** Contains the data from the reanalysis of lytic Raji cells from Buschle et al. [PMID: 33675667].
 
 ## Getting Started
 
