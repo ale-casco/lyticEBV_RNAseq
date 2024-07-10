@@ -13,25 +13,25 @@ The raw (genome-aligned BAM files) and processed (RSEM output) RNA-seq data used
 
 - **`Linux_workflow`**: Contains the detailed Linux workflow and associated bash scripts employed for data processing within the Ubuntu Linux environment.
 - **`Rscripts`**: Contains the R scripts used for data analysis and figure generation.
-- **`initiate.R`**: This script sets up the R environment, launching the RStudio project **`lyticEBV_project.Rproj`** and activating the **`renv`** environment to ensure reproducibility of the R package versions used in the study. See **`renv.lock`** for a snapshot of the R environment.
+- **`initiate.R`**: This script sets up the R environment, launching the RStudio project `lyticEBV_project.Rproj` and activating the `renv` environment to ensure reproducibility of the R package versions used in the study. See `renv.lock` for a snapshot of the R environment.
 
 ## Getting Started
 
 ### Prerequisites
 
 - **Ubuntu Linux:** The data processing scripts are designed for Ubuntu Linux (tested on 20.04 LTS). Bash is required.
-- **R:** The R environment is managed with the **`renv`** package to handle dependencies.
+- **R:** The R environment is managed with the `renv` package to handle dependencies.
 
 Ensure you have Ubuntu Linnux installed on your system. Processing of the raw data and bash scripts have been tested on Ubuntu 20.04 LTS. Bash is required for executing the data processing scripts.
 
 ## Instructions
 
 1. Run **`initiate.R`:**
-   - This script will open the RStudio project **`lyticEBV_project.Rproj`**.
+   - This script will open the RStudio project `lyticEBV_project.Rproj`.
    - It will also activate the **`renv`** environment, restoring the necessary R packages.
 
 2. **Run Analysis Scripts:**
-   - Execute the data analysis or figure generation scripts as needed from the **`Rscripts`** directory. You can use the `open_scripts.R` script to open all data analysis or figure generation scripts at once within RStudio.
+   - Execute the data analysis or figure generation scripts as needed from the `Rscripts` directory. You can use the `open_scripts.R` script to open all data analysis or figure generation scripts at once within RStudio.
    -  **Note:** Some large files are not included due to size limitations. Refer to the "Data Exclusions" section below.
 
 ## Data Exclusions
