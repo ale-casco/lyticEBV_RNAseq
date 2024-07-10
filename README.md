@@ -49,10 +49,8 @@ For convenience, a README file with a tree visualization of the file structure a
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Authour
+## Contact
 
-Alejandro Casco, PhD Candidate.
-For any questions or further information, please contact Alejandro Casco casco@wisc.edu or Dr. Eric Johannsen ejohannsen@medicine.wisc.edu.
-
-
-Please cite accordingly if use this code in your work, including the original citations for any programs used.
+For questions or further information about this project, please contact:
+- **Alejandro Casco, PhD**: casco@wisc.edu
+- **Eric Johannsen, MD**: ejohannsen@medicine.wisc.edu.
