@@ -39,7 +39,7 @@ Files are replaced with a README file with tree visualization of the file struct
 | Path                                            | Notes                               |
 | ----------------------------------------------- |:-----------------------------------:|
 | ~/Data/ARTDeco/preprocess_files                 | Run ARTDeco                         |
-| ~/Data/SpliceWiz/NxtSE \n test                  |                                     |
+| ~/Data/SpliceWiz/NxtSE \\n test                  |                                     |
 | ~/Data/SpliceWiz/output\n                       | Run SpliceWiz.R                     |
 | ~/Data/SpliceWiz/ref\n                          |                                     |
 | ~/Data/bams                                     | NCBI GEO accession number GSE271717 |
