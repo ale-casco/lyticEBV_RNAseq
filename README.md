@@ -11,41 +11,40 @@ The raw (genome-aligned BAM files) and processed (RSEM output) RNA-seq data used
 
 ## Repository Contents
 
-- **`Linux_workflow`**: Contains the detailed Linux workflow and associated bash scripts employed for data processing.
-- **Rscripts**: Contains the R scripts utilized for data analysis and generation of figures.
-- **initiate.R**: This script facilitates the setup of the R environment. Executing it will launch the RStudio project **'lyticEBV_project.Rproj'**, which leverages the **'renv'** environment. This environment ensures reproducibility by encapsulating the specific R package versions used throughout the study. See **'renv.lock'** for a snapshot of the R environment.
+- **`Linux_workflow`**: Contains the detailed Linux workflow and associated bash scripts employed for data processing within the Ubuntu Linux environment.
+- **`Rscripts`**: Contains the R scripts used for data analysis and figure generation.
+- **`initiate.R`**: This script sets up the R environment, launching the RStudio project **`lyticEBV_project.Rproj`** and activating the **`renv`** environment to ensure reproducibility of the R package versions used in the study. See **`renv.lock`** for a snapshot of the R environment.
 
-## Prerequisites
+## Getting Started
 
-### Ubuntu Linux
+### Prerequisites
+
+- **Ubuntu Linux:** The data processing scripts are designed for Ubuntu Linux (tested on 20.04 LTS). Bash is required.
+- **R:** The R environment is managed with the **`renv`** package to handle dependencies.
 
 Ensure you have Ubuntu Linnux installed on your system. Processing of the raw data and bash scripts have been tested on Ubuntu 20.04 LTS. Bash is required for executing the data processing scripts.
 
-### R and R Packages
+## Instructions
 
-This analysis relies on R for data processing and visualization. The R scripts manage dependencies using the **'renv'** package.
+1. Run **`initiate.R`:**
+   - - This script will open the RStudio project **`lyticEBV_project.Rproj`**.
+   - - It will also activate the **`renv`** environment, restoring the necessary R packages.
 
-## Start Guide
-
-1. Run the **'initiate.R'** script.
-   This script will:
-   - Use **'rstudioapi'** to define the project directory and open the R project **'lytic_EBV_project.Rproj'**.
-   - Use **'renv'** to activate and restore the renv library from the lock file.
-
-2. Run data analysis or figure visualization scripts.
-   - Note: due to size limitations, some files are missing. See below under 'Data Exclusions'.
+2. **Run Analysis Scripts:**
+   - - Execute the data analysis or figure generation scripts as needed from the **`Rscripts`** directory.
+     - **Note:** Some large files are not included due to size limitations. Refer to the "Data Exclusions" section below.
 
 ## Data Exclusions
 
-The following files and directories are not included in this repository, but are referenced in the workflow:
-| Path                                                                            | Notes                                                                                  |
-| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| ~/Data/ARTDeco/preprocess_files                                                 | Run ARTDeco separately to generate these files.                                        |
-| ~/Data/SpliceWiz/NxtSE ,<br> ~/Data/SpliceWiz/output ,<br> ~/Data/SpliceWiz/ref | <be>Run SpliceWiz.R to generate these files.                                           |
-| ~/Data/bams                                                                     | Download these files from the NCBI GEO database under accession number GSE271717.      |
-| ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa                     | See README file in the ~/Data/refs directory for instructions on generating this file. |
+The following files/directories are referenced in the workflow but not included in this repository:
+| Path                                                                                  | Notes                                                    |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| `~/Data/ARTDeco/preprocess_files`                                                     | Generate by running `ARTDeco`.                           |
+| `~/Data/SpliceWiz/NxtSE` ,<br> `~/Data/SpliceWiz/output` ,<br> `~/Data/SpliceWiz/ref` | <be>Generate by running `SpliceWiz.R`                    |
+| `~/Data/bams`                                                                         | Download from NCBI GEO (accession GSE271717).            |
+| `~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa`                         | See README in `~/Data/refs` for generation instructions. |
 
-For convenience, a README file with a tree visualization of the file structure and disk usage for each excluded directory is included in its place.
+Placeholder README files with directory structure and size information are provided for these exclusions.
 
 ## License
 
@@ -55,4 +54,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions or further information about this project, please contact:
 - **Alejandro Casco, PhD**: casco@wisc.edu
-- **Eric Johannsen, MD**: ejohannsen@medicine.wisc.edu.
+- **Eric Johannsen, MD**: ejohannsen@medicine.wisc.edu
