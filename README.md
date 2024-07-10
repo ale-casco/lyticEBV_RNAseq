@@ -21,31 +21,36 @@ Ensure you have Ubuntu Linnux installed on your system. Processing of the raw da
 
 ### R and R Packages
 
-This analysis relies on R for data processing and visualization. The R scripts manage dependencies using the **'renv'** package. Please note that the **'renv'** environment was created on a Windows system and may not be fully compatible with Ubuntu or MacOS.
+This analysis relies on R for data processing and visualization. The R scripts manage dependencies using the **'renv'** package.
 
-## Initiate R environment
+## Start Guide
 
-1. **Set up R environment**
-
+1. Run the **'initiate.R'** script.
    This script will:
-   - Check if **'rstudioapi'** is installed.
-   - Use **'rstudioapi'** to define the project directory.
-   - Check if the project is open.
-   - If the project is not open, it will open the project using **'openProject(file.path(project_dir, "lytic_EBV_project.Rproj"))'**.
-   
-By opening the project, the necessary **'renv'** project libraries will be loaded automatically, so there is no need to install or run **'renv::restore()'** manually.
+   - Use **'rstudioapi'** to define the project directory and open the R project **'lytic_EBV_project.Rproj'**.
+   - Use **'renv'** to activate and restore the renv library from the lock file.
 
-## Contributing
+2. Run data analysis or figure visualization scripts.
+   - Note: due to size limitations, some files are missing. See below under 'Excluded Files'.
 
-We welcome contributions from the community. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+## Excluded Files
+
+Files are replaced with a README file with tree visualization of the file structure and disk usage in the directory for missing files
+   ~/Data/ARTDeco/preprocess_files                               # Run ARTDeco separately
+   ~/Data/SpliceWiz/NxtSE                                        # Run SpliceWiz.R to generate
+   ~/Data/SpliceWiz/output                                       # Run SpliceWiz.R to generate
+   ~/Data/SpliceWiz/ref                                          # Run SpliceWiz.R to generate
+   ~/Data/bams                                                   # Download from the NCBI GEO database under accession number GSE271717
+   ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa   # see README in ~/Data/refs for how to generate
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
+## Authour
 
-For any questions or further information, please contact casco@wisc.edu
+Alejandro Casco, PhD Candidate.
+For any questions or further information, please contact Alejandro Casco casco@wisc.edu or Dr. Eric Johannsen ejohannsen@medicine.wisc.edu.
 
 
 Please cite accordingly if use this code in your work, including the original citations for any programs used.
