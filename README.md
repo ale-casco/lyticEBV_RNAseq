@@ -40,6 +40,8 @@ Files are replaced with a README file with tree visualization of the file struct
 | --------------------------------------------------------------------------- | ------------------------------------------------------ |
 | ~/Data/ARTDeco/preprocess_files                                             | Run ARTDeco                                            |
 | ~/Data/SpliceWiz/NxtSE<be> ~/Data/SpliceWiz/output<be> ~/Data/SpliceWiz/ref | <be>Run SpliceWiz.R                                    |
+| ~/Data/SpliceWiz/output                                                     |                                                        |
+| ~/Data/SpliceWiz/ref                                                        |                                                        |
 | ~/Data/bams                                                                 | Available from NCBI GEO accession number GSE271717     |
 | ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa                 | See README in ~/Data/refs for instructions to generate |
 
