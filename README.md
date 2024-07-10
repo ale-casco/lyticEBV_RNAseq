@@ -36,15 +36,15 @@ This analysis relies on R for data processing and visualization. The R scripts m
 ## Data Exclusions
 
 Files are replaced with a README file with tree visualization of the file structure and disk usage in the directory for missing files
-| Tables                                          | Are           |
-| ----------------------------------------------- |:-------------:|
-| ~/Data/ARTDeco/preprocess_files                 | right-aligned |
-| ~/Data/SpliceWiz/NxtSE                          | centered      |
-| ~/Data/SpliceWiz/output                         | are neat      |
-| ~/Data/SpliceWiz/ref                            | are neat      |
-| ~/Data/bams                                     | are neat      |
-| ~/Data/refs/
-  GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa | are neat      |
+| Path                                            | Notes                               |
+| ----------------------------------------------- |:-----------------------------------:|
+| ~/Data/ARTDeco/preprocess_files                 | Run ARTDeco                         |
+| ~/Data/SpliceWiz/NxtSE\                         |                                     |
+| ~/Data/SpliceWiz/output\                        | Run SpliceWiz.R                     |
+| ~/Data/SpliceWiz/ref\                           |                                     |
+| ~/Data/bams                                     | NCBI GEO accession number GSE271717 |
+| ~/Data/refs/\                                   | See README in ~/Data/refs for       |
+| GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa | instructions to generate            |
 
    - ~/Data/ARTDeco/preprocess_files                               # Run ARTDeco separately
    - ~/Data/SpliceWiz/NxtSE                                        # Run SpliceWiz.R to generate
