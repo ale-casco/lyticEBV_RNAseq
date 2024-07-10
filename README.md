@@ -39,7 +39,7 @@ The following files and directories are not included in this repository, but are
 | Path                                                                          | Notes                                                  |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
 | ~/Data/ARTDeco/preprocess_files                                               | Run ARTDeco separately to generate these files.     |
-| ~/Data/SpliceWiz/NxtSE,<br> ~/Data/SpliceWiz/output<br>, ~/Data/SpliceWiz/ref | <be>Run SpliceWiz.R to generate these files.        |
+| ~/Data/SpliceWiz/NxtSE,<br> ~/Data/SpliceWiz/output,<br> ~/Data/SpliceWiz/ref | <be>Run SpliceWiz.R to generate these files.        |
 | ~/Data/bams                                                                   | Download these files from the NCBI GEO database under accession number GSE271717. |
 | ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa                   | See README file in the ~/Data/refs directory for instructions on generating this file. |
 
