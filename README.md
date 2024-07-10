@@ -36,12 +36,12 @@ This analysis relies on R for data processing and visualization. The R scripts m
 ## Excluded Files
 
 Files are replaced with a README file with tree visualization of the file structure and disk usage in the directory for missing files
-   ~/Data/ARTDeco/preprocess_files                               # Run ARTDeco separately
-   ~/Data/SpliceWiz/NxtSE                                        # Run SpliceWiz.R to generate
-   ~/Data/SpliceWiz/output                                       # Run SpliceWiz.R to generate
-   ~/Data/SpliceWiz/ref                                          # Run SpliceWiz.R to generate
-   ~/Data/bams                                                   # Download from the NCBI GEO database under accession number GSE271717
-   ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa   # see README in ~/Data/refs for how to generate
+   - ~/Data/ARTDeco/preprocess_files                               # Run ARTDeco separately
+   - ~/Data/SpliceWiz/NxtSE                                        # Run SpliceWiz.R to generate
+   - ~/Data/SpliceWiz/output                                       # Run SpliceWiz.R to generate
+   - ~/Data/SpliceWiz/ref                                          # Run SpliceWiz.R to generate
+   - ~/Data/bams                                                   # Download from the NCBI GEO database under accession number GSE271717
+   - ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa   # see README in ~/Data/refs for how to generate
 
 ## License
 
