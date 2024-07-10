@@ -39,10 +39,10 @@ Ensure you have Ubuntu Linnux installed on your system. Processing of the raw da
 The following files/directories are referenced in the workflow but not included in this repository:
 | Path                                                                                  | Notes                                                    |
 | ------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| `~/Data/ARTDeco/preprocess_files`                                                     | Generate by running ARTDeco.                           |
 | `~/Data/SpliceWiz/NxtSE` ,<br> `~/Data/SpliceWiz/output` ,<br> `~/Data/SpliceWiz/ref` | <be>Generate by running `SpliceWiz.R`                    |
 | `~/Data/bams`                                                                         | Download from NCBI GEO (accession GSE271717).            |
 | `~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa`                         | See README in `~/Data/refs` for generation instructions. |
+| `~/Data/ARTDeco/preprocess_files`                                                     | Generate by running ARTDeco.                             |
 
 Placeholder README files with directory structure and size information are provided for these exclusions.
 
