@@ -3,7 +3,7 @@
 ## Overview
 This repository contains the scripts and workflows used in our study on bulk RNA-seq data from FAC-sorted latent, early lytic, and late lytic fractions of lymphoblastoid cell lines (LCLs) transformed by a dual-fluorescent lytic reporter Epstein-Barr virus (EBV).
 
-Data processing was primarily conducted in an Ubuntu Linux environment. Additional processing and visualization were performed in R.
+Data processing was primarily conducted in a Linux environment. Additional processing and visualization were performed in R.
 
 ## Data Availability
 
@@ -11,7 +11,7 @@ The raw (genome-aligned BAM files) and processed (RSEM output) RNA-seq data used
 
 ## Repository Contents
 
-- **`Linux_workflow`:** Contains the detailed Linux workflow and associated bash scripts employed for data processing within the Ubuntu Linux environment.
+- **`Linux_workflow`:** Contains the detailed Linux workflow and associated bash scripts employed for data processing within the Linux environment.
 - **`initiate.R`:** This script sets up the R environment, launching the RStudio project `lyticEBV_project.Rproj` and activating the `renv` environment to ensure reproducibility of the R package versions used in the study. See `renv.lock` for a snapshot of the R environment.
 - **`Rscripts`:** Contains the R scripts used for data analysis and figure generation.
 - **`Data`:** Contains the data used for R analysis and figure generation in this study.
@@ -21,10 +21,8 @@ The raw (genome-aligned BAM files) and processed (RSEM output) RNA-seq data used
 
 ### Prerequisites
 
-- **Ubuntu Linux:** The data processing scripts are designed for Ubuntu Linux (tested on 20.04 LTS). Bash is required.
+- **Linux:** The data processing scripts are designed for Linux. Bash is required.
 - **R:** The R environment is managed with the `renv` package to handle dependencies.
-
-Ensure you have Ubuntu Linnux installed on your system. Processing of the raw data and bash scripts have been tested on Ubuntu 20.04 LTS. Bash is required for executing the data processing scripts.
 
 ## Instructions
 
