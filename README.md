@@ -54,4 +54,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions or further information about this project, please contact:
 - **Alejandro Casco, PhD**: casco@wisc.edu
-- **Eric Johannsen, MD**:   ejohannsen@medicine.wisc.edu
+- **Eric Johannsen, MD**: ejohannsen@medicine.wisc.edu
