@@ -37,21 +37,13 @@ This analysis relies on R for data processing and visualization. The R scripts m
 
 Files are replaced with a README file with tree visualization of the file structure and disk usage in the directory for missing files
 | Path                                                                        | Notes                                                  |
-| --------------------------------------------------------------------------- |:------------------------------------------------------:|
+| --------------------------------------------------------------------------- | ------------------------------------------------------ |
 | ~/Data/ARTDeco/preprocess_files                                             | Run ARTDeco                                            |
 | ~/Data/SpliceWiz/NxtSE<br> ~/Data/SpliceWiz/output<br> ~/Data/SpliceWiz/ref |                                                        |
 | ~/Data/SpliceWiz/output\n                                                   | Run SpliceWiz.R                                        |
 | ~/Data/SpliceWiz/ref\n                                                      |                                                        |
-| ~/Data/bams                                                                 | NCBI GEO accession number GSE271717                    |
+| ~/Data/bams                                                                 | Available from NCBI GEO accession number GSE271717     |
 | ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa                 | See README in ~/Data/refs for instructions to generate |
-|  |             |
-
-   - ~/Data/ARTDeco/preprocess_files                               # Run ARTDeco separately
-   - ~/Data/SpliceWiz/NxtSE                                        # Run SpliceWiz.R to generate
-   - ~/Data/SpliceWiz/output                                       # Run SpliceWiz.R to generate
-   - ~/Data/SpliceWiz/ref                                          # Run SpliceWiz.R to generate
-   - ~/Data/bams                                                   # Download from the NCBI GEO database under accession number GSE271717
-   - ~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa   # see README in ~/Data/refs for how to generate
 
 ## License
 
