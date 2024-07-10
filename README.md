@@ -44,7 +44,7 @@ The following files/directories are referenced in the workflow but not included 
 | `~/Data/refs/GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa`                         | See README in `~/Data/refs` for generation instructions. |
 | `~/Data/ARTDeco/preprocess_files`                                                     | Generate by running ARTDeco. Not required for analysis.  |
 
-Placeholder DATA_EXCLUSIONS files with directory structure and size information are provided for these exclusions.
+Placeholder `DATA_EXCLUSIONS` files with directory structure and size information are provided for these exclusions.
 
 ## License
 
