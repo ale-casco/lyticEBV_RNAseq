@@ -31,11 +31,21 @@ This analysis relies on R for data processing and visualization. The R scripts m
    - Use **'renv'** to activate and restore the renv library from the lock file.
 
 2. Run data analysis or figure visualization scripts.
-   - Note: due to size limitations, some files are missing. See below under 'Excluded Files'.
+   - Note: due to size limitations, some files are missing. See below under 'Data Exclusions'.
 
-## Excluded Files
+## Data Exclusions
 
 Files are replaced with a README file with tree visualization of the file structure and disk usage in the directory for missing files
+| Tables                                          | Are           |
+| ----------------------------------------------- |:-------------:|
+| ~/Data/ARTDeco/preprocess_files                 | right-aligned |
+| ~/Data/SpliceWiz/NxtSE                          | centered      |
+| ~/Data/SpliceWiz/output                         | are neat      |
+| ~/Data/SpliceWiz/ref                            | are neat      |
+| ~/Data/bams                                     | are neat      |
+| ~/Data/refs/
+  GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa | are neat      |
+
    - ~/Data/ARTDeco/preprocess_files                               # Run ARTDeco separately
    - ~/Data/SpliceWiz/NxtSE                                        # Run SpliceWiz.R to generate
    - ~/Data/SpliceWiz/output                                       # Run SpliceWiz.R to generate
