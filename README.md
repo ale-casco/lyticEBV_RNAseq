@@ -46,6 +46,11 @@ Files are replaced with a README file with tree visualization of the file struct
 | ~/Data/refs/\                                   | See README in ~/Data/refs for       |
 | GRCh38.p14.ERCC.M81_DFLR.M81.chrEBV.inverted.fa | instructions to generate            |
 
+|_. First Header |_. Second Header     |
+| Content Cell   | Content Cell Line 1
+                   Content Cell Line 2 |
+| Content Cell   | Content Cell        |
+
    - ~/Data/ARTDeco/preprocess_files                               # Run ARTDeco separately
    - ~/Data/SpliceWiz/NxtSE                                        # Run SpliceWiz.R to generate
    - ~/Data/SpliceWiz/output                                       # Run SpliceWiz.R to generate
