@@ -26,7 +26,7 @@ The raw (genome-aligned BAM files) and processed (RSEM output) RNA-seq data used
 
 ## Instructions
 
-1. Run **`initiate.R`:**
+1. **Run `initiate.R`:**
    - This script will open the RStudio project `lyticEBV_project.Rproj`.
    - It will also activate the `renv` environment, restoring the necessary R packages.
 
